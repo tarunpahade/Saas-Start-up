@@ -1,0 +1,197 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+    <link rel="stylesheet" href="cad.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-fostrap">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="/waiter">Orders</a></li>
+                <li><a href="/kot&bill">bill</a></li>
+                <li><a href="">Log Out</a></li>
+            </ul>
+        </div>
+        <div class="nav-bg-fostrap">
+            <div class="navbar-fostrap"> <span></span> <span></span> <span></span> </div>
+            <a href="" class="title-mobile" style="color: #fff;">Logo</a>
+            <a href="./cart.html" class="cart">
+                <i class="fa-solid">Cart</i>
+                <div id="cartproducts" class="cartproducts">0</div>
+            </a>
+            <div class="con">
+                <a class='btn' href='./waiter'>Waiter</a>
+                <div class="waiter">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- <nav id="navbar">
+        <a href="index.html" style="
+        margin: inherit;
+        padding: 7px 0px;
+        " class="logoArrow">Logo</a>
+        <div class="menu">
+            <p class="price">MENU</p>
+        </div>
+    </nav> -->
+    <div class="food">
+        <div class="container" data-item="staters"
+            style="background-image: url('https://i.ytimg.com/vi/gcqZteUmQko/maxresdefault.jpg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Staters</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="saojiSpecial"
+            style="background-image: url('https://www.eitanbernath.com/wp-content/uploads/2020/05/Butter-Paneer-1-4x5-LOW-RES.jpeg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Saoji Special</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="specials"
+            style="background-image: url('https://ammasale.com/wp-content/uploads/2020/06/shev-bhaji-1200x800.png')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Specials</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="mainCourse"
+            style="background-image: url('https://geekrobocook.com/wp-content/uploads/2021/01/56_Paneer-Butter-Masala.jpg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Veg Main Course</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="paneerCourse"
+            style="background-image: url('https://www.eitanbernath.com/wp-content/uploads/2020/05/Butter-Paneer-1-4x5-LOW-RES.jpeg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Paneer Course</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="roti"
+            style="background-image: url('https://www.cookwithmanali.com/wp-content/uploads/2021/07/Tandoori-Roti.jpg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Roti</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="kalaMasala"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzkGdfLY1wm9ruI6u703pMLptwfus54-tZA&usqp=CAU')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Kala Masala</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="dal"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SignN_tPNaaT5juPpvqeDdFhCPsgjqfR-w&usqp=CAU')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Dal</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="rice"
+            style="background-image: url('https://lagosbukagrillandbar.com/wp-content/uploads/2021/07/white-rice.jpeg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Rice</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="biryani"
+            style="background-image: url('https://assets.gqindia.com/photos/5edf897e0f82d6d3cee5f0a7/master/pass/veg-biryani-recipes.jpg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Biryani</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="chinese"
+            style="background-image: url('https://content.jdmagicbox.com/comp/def_content/chinese_restaurants/default-chinese-restaurants-5.jpg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Chinese</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-item="deserts"
+            style="background-image: url('https://www.nehascookbook.com/wp-content/uploads/2022/09/Instant-rabdi-WS-1.jpg')">
+            <div class="overlay">
+                <div class="items"></div>
+                <div class="items head">
+                    <p>Desserts</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="topic">
+    </h3>
+    <div class="lala">
+    </div>
+    <div class="menu2">
+        <span style="color: #fff;"> Menu </span>
+    </div>
+    <div class="containernav2">
+        <h3>Menu <i class="fa-solid fa-utensils"></i></h3>
+        <p class="itemnav " id="staters"> Staters</p>
+        <p class="itemnav" id="saojiSpecial"> Saoji Special </p>
+        <p class="itemnav" id="specials"> Specials </p>
+        <p class="itemnav" id="roti"> Roti </p>
+        <p class="itemnav" id="mainCourse">Main Course</p>
+        <p class="itemnav" id="paneerCourse"> Paneer course </p>
+        <p class="itemnav" id="chinese"> Chinese </p>
+        <p class="itemnav" id="deserts"> Desserts </p>
+        <p class="itemnav" id="kalaMasala"> Kala Masala </p>
+    </div>
+    <img class="cross" src="./images/x-mark-16 (1).png" alt="">
+    <script src="https://kit.fontawesome.com/320d87f58f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
